@@ -1,0 +1,19 @@
+three stages of files--------------
+In Git, files go through different stages in the workflow: untracked, staged, and tracked (committed).
+
+untracked--all files are untracked in filesystem.These files exist in your working directory but are not yet tracked by Git.(RED COLOUR)
+git add <filename>
+git add . (to stage all files)
+
+staged--Files that are added to the staging area but not yet committed.These files are ready to be committed in the next commit.(GREEN COLOUR)Either you can untrack or track.
+git rm --cached <file>..." to untrack it again
+git commit -m "added testing files"   to track it
+
+
+tracked--all files are tracked in git VCS.Files that are already committed to the Git repository.Git is now tracking changes for these files.
+
+File Lifecycle in Git
+State	                       Command to Move to Next State
+Untracked                  	git add <file>
+Staged	                        git commit -m "Message"
+Tracked (Committed)	        File is now in Git history
