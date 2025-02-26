@@ -10,4 +10,12 @@
 
 6. git restore <filename>-------------restore a file from last commit
 
+7. git push------------------upload local commits to a remote repository (e.g., GitHub, GitLab, Bitbucket
+
+8. git clone----------github to local     vs                  git fork--------from github to github
+
+9. how to set local changes to github-----git push origin master
+
+
+
 
