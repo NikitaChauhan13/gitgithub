@@ -1,0 +1,13 @@
+1. git init---------------to initialize an empty git respository.It creates a hidden .git folder, which stores all Git-related configurations and version history.
+
+2. git status---------------------shows the current state of your working directory and staging area.helps track which files have been modified, staged, or are untracked.
+
+3. git add---------------moves changes from the working directory to the staging area
+
+4. git commit -m "MESSAGE"------------saves the staged changes to the Git repository with a descriptive message.
+
+5. git rm --cached <filename>-------------- removes a file from the Git staging area (index) but keeps it in the working directory.The file will no longer be tracked by Git.The file will                                            NOT be deleted from your system. 
+
+6. git restore <filename>-------------restore a file from last commit
+
+
